@@ -1,8 +1,8 @@
-# AWS Solution Architecture
+# AWS Solution Architecture Assosiate 
 
 ## Overview
 
-This project provides a comprehensive AWS architecture solution. The documentation describes the various AWS services used, their integration, and the overall system design.
+This project provides a comprehensive AWS architecture solution. The documentation describes the various AWS services used, their integration, and the overall system design..
 
 ## Features
 
