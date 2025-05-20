@@ -172,8 +172,8 @@ This comprehensive approach empowers Global Manufacturing Inc. to achieve an Ind
 1. **Clone this repository**:
 
    ```bash
-   git clone <your-repo-url>
-   cd <your-project-name>
+   git clone git@github.com:MohmedADesouky/AWS-Solutions-Architect---Associate.git
+   cd AWS-Solutions-Architect---Associate
    ```
 
 2. **View the Architecture**:
