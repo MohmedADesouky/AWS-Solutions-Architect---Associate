@@ -1,54 +1,4 @@
-# AWS Solution Architecture Assosiate 
-
-## Overview
-
-This project provides a comprehensive AWS architecture solution. The documentation describes the various AWS services used, their integration, and the overall system design..
-
-## Features
-
-* **Service Category 1**: Description of key AWS services used
-* **Service Category 2**: Description of key AWS services used
-* **Service Category 3**: Description of key AWS services used
-* **Service Category 4**: Description of key AWS services used
-
-## Getting Started
-
-1. **Clone this repository**:
-
-   ```bash
-   git clone <your-repo-url>
-   cd <your-project-name>
-   ```
-
-2. **View the Architecture**:
-
-   * Open the architecture.png file to view the system design
-   * Review the documentation for detailed explanations
-
-## File Structure
-
-```
-├── main.tex          # LaTeX source with detailed architecture description
-├── architecture.png  # Diagram of AWS services and data flows
-└── README.md         # Project overview and instructions
-```
-
-## Customization
-
-* **Diagram**: Modify the Draw\.io source and re-export `architecture.png` to update the figure.
-* **Document**: Edit `main.tex` to add sections, update service details, or adjust formatting.
-
-## License
-
-This project is provided under the MIT License. See [LICENSE](LICENSE) for details.
-
-## Acknowledgments
-
-* AWS Official Documentation for service descriptions and best practices.
-* Draw\.io for the AWS icon library.
-* Global Manufacturing Inc. for the project scenario.
-
-# AWS Smart Factory Architecture
+# AWS Solution Architecture Associate - Smart Factory Implementation
 
 ## Overview
 
@@ -60,8 +10,8 @@ This project provides a comprehensive AWS architecture solution for a smart fact
 
 ### Data Flow
 
-1. **Factory Data Sources**
-   * Multiple factories (Factory 1, 2, 3) with client systems
+1. **Data Sources**
+   * Multiple factories with client systems
    * Factory Gateways serving as data collection points
 
 2. **Data Ingestion & Processing**
@@ -71,7 +21,7 @@ This project provides a comprehensive AWS architecture solution for a smart fact
 
 3. **Data Storage & Processing**
    * **Amazon Timestream**: Time series database for industrial metrics
-   * **Amazon IoT SiteWise**: Service for collecting, organizing, and analyzing industrial equipment data
+   * **Amazon IoT SiteWise**: Service for collecting and analyzing industrial equipment data
    * **AWS Lambda**: Serverless compute for event-driven processing
 
 4. **Analytics & Visualization**
@@ -135,15 +85,15 @@ The architecture implements:
 ## File Structure
 
 ```
-├── main.tex          # LaTeX source with detailed architecture description
-├── architecture.png  # Diagram of AWS services and data flows
-└── README.md         # Project overview and instructions
+├── Smart_Factory_Architecture__Serverless_AWS_Solution.pdf  # Detailed architecture description
+├── architecture.png                                         # Diagram of AWS services and data flows
+└── README.md                                                # Project overview and instructions
 ```
 
 ## Customization
 
-* **Diagram**: Modify the Draw\.io source and re-export `architecture.png` to update the figure.
-* **Document**: Edit `main.tex` to add sections, update service details, or adjust formatting.
+* **Diagram**: Modify the Draw.io source and re-export `architecture.png` to update the figure.
+* **Document**: Edit source files to add sections, update service details, or adjust formatting.
 
 ## License
 
@@ -151,7 +101,6 @@ This project is provided under the MIT License. See [LICENSE](LICENSE) for detai
 
 ## Acknowledgments
 
-* AWS Official Documentation for service descriptions and best practices.
-* Draw\.io for the AWS icon library.
-* Global Manufacturing Inc. for the project scenario.
-
+* AWS Official Documentation for service descriptions and best practices
+* Draw.io for the AWS icon library
+* Global Manufacturing Inc. for the project scenario
